@@ -8,7 +8,7 @@ public class Retangulo2 {
 		return lado1 * lado2;
 	}
 	public int calculaPerimetro() {
-		return 2 * (lado1 * lado2);
+		return 2 * (lado1 + lado2);
 	}
 	
 	public void carregaLados(int l1, int l2){

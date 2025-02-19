@@ -5,6 +5,6 @@ public class Retangulo1 {
 		return lado1 * lado2;
 	}
 	public int calculaPerimetro(int lado1, int lado2){
-		return 2 * (lado1 * lado2);
+		return 2 * (lado1 + lado2);
 	}
 }
